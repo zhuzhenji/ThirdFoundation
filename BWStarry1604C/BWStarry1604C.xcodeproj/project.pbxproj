@@ -15,6 +15,7 @@
 		5EEEB3AE20EDFC0A006947C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEEB3AD20EDFC0A006947C5 /* Assets.xcassets */; };
 		5EEEB3B120EDFC0A006947C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEEB3AF20EDFC0A006947C5 /* LaunchScreen.storyboard */; };
 		5EEEB3B420EDFC0A006947C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEEB3B320EDFC0A006947C5 /* main.m */; };
+		5EEEB3DA20EE122B006947C5 /* BWStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEEB3D920EE122B006947C5 /* BWStar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		5EEEB3B020EDFC0A006947C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EEEB3B220EDFC0A006947C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EEEB3B320EDFC0A006947C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EEEB3D820EE122B006947C5 /* BWStar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWStar.h; sourceTree = "<group>"; };
+		5EEEB3D920EE122B006947C5 /* BWStar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWStar.m; sourceTree = "<group>"; };
 		812F8BBEC42F7D79DCD189AE /* libPods-BWStarry1604C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWStarry1604C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1F71B992A574386CBFB4B0 /* Pods-BWStarry1604C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWStarry1604C.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWStarry1604C/Pods-BWStarry1604C.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -312,6 +315,8 @@
 		5EEEB3D620EE06A2006947C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5EEEB3D820EE122B006947C5 /* BWStar.h */,
+				5EEEB3D920EE122B006947C5 /* BWStar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -319,13 +324,13 @@
 		5EEEB3D720EE06B0006947C5 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				5EEEB3BA20EE04DF006947C5 /* Base */,
 				5EEEB3CF20EE06A2006947C5 /* Guide */,
-				5EEEB3CB20EE06A2006947C5 /* LiveBroadcast */,
 				5EEEB3D320EE06A2006947C5 /* Login */,
 				5EEEB3BF20EE06A1006947C5 /* News */,
 				5EEEB3C720EE06A2006947C5 /* PersonCenter */,
 				5EEEB3C320EE06A1006947C5 /* ShoppingMall */,
-				5EEEB3BA20EE04DF006947C5 /* Base */,
+				5EEEB3CB20EE06A2006947C5 /* LiveBroadcast */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -443,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EEEB3DA20EE122B006947C5 /* BWStar.m in Sources */,
 				5EEEB3A620EDFC08006947C5 /* ViewController.m in Sources */,
 				5EEEB3A320EDFC08006947C5 /* AppDelegate.m in Sources */,
 				5EEEB3B420EDFC0A006947C5 /* main.m in Sources */,
