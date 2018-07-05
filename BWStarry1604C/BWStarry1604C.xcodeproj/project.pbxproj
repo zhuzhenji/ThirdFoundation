@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2E7CA4A6301DA599BE1074 /* libPods-BWStarry1604C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 812F8BBEC42F7D79DCD189AE /* libPods-BWStarry1604C.a */; };
 		5EEEB3A320EDFC08006947C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEEB3A220EDFC08006947C5 /* AppDelegate.m */; };
 		5EEEB3A620EDFC08006947C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEEB3A520EDFC08006947C5 /* ViewController.m */; };
 		5EEEB3A920EDFC08006947C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEEB3A720EDFC08006947C5 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A2B62412C921136DF8C8DE0 /* Pods-BWStarry1604C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWStarry1604C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWStarry1604C/Pods-BWStarry1604C.debug.xcconfig"; sourceTree = "<group>"; };
 		5EEEB39E20EDFC08006947C5 /* BWStarry1604C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWStarry1604C.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEEB3A120EDFC08006947C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EEEB3A220EDFC08006947C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		5EEEB3B020EDFC0A006947C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EEEB3B220EDFC0A006947C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EEEB3B320EDFC0A006947C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		812F8BBEC42F7D79DCD189AE /* libPods-BWStarry1604C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWStarry1604C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1F71B992A574386CBFB4B0 /* Pods-BWStarry1604C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWStarry1604C.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWStarry1604C/Pods-BWStarry1604C.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C2E7CA4A6301DA599BE1074 /* libPods-BWStarry1604C.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15CAC1E0BF5CF2584EB108A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A2B62412C921136DF8C8DE0 /* Pods-BWStarry1604C.debug.xcconfig */,
+				DA1F71B992A574386CBFB4B0 /* Pods-BWStarry1604C.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4FDB0E9E39FD8EF009CC1791 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				812F8BBEC42F7D79DCD189AE /* libPods-BWStarry1604C.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5EEEB39520EDFC08006947C5 = {
 			isa = PBXGroup;
 			children = (
 				5EEEB3A020EDFC08006947C5 /* BWStarry1604C */,
 				5EEEB39F20EDFC08006947C5 /* Products */,
+				15CAC1E0BF5CF2584EB108A4 /* Pods */,
+				4FDB0E9E39FD8EF009CC1791 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EEEB3B720EDFC0A006947C5 /* Build configuration list for PBXNativeTarget "BWStarry1604C" */;
 			buildPhases = (
+				330481CB501F2D87964AD8A5 /* [CP] Check Pods Manifest.lock */,
 				5EEEB39A20EDFC08006947C5 /* Sources */,
 				5EEEB39B20EDFC08006947C5 /* Frameworks */,
 				5EEEB39C20EDFC08006947C5 /* Resources */,
+				4F88FA3FDEC54134621AC6F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +164,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		330481CB501F2D87964AD8A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BWStarry1604C-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F88FA3FDEC54134621AC6F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BWStarry1604C/Pods-BWStarry1604C-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWStarry1604C/Pods-BWStarry1604C-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5EEEB39A20EDFC08006947C5 /* Sources */ = {
@@ -285,8 +352,10 @@
 		};
 		5EEEB3B820EDFC0A006947C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2B62412C921136DF8C8DE0 /* Pods-BWStarry1604C.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BWStarry1604C/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,8 +370,10 @@
 		};
 		5EEEB3B920EDFC0A006947C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1F71B992A574386CBFB4B0 /* Pods-BWStarry1604C.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BWStarry1604C/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
