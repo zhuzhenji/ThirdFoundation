@@ -9,6 +9,9 @@ target 'BWStarry1604C' do
   pod "MBProgressHUD"
   pod "MJRefresh"
   pod "MWPhotoBrowser"
+  pod "UMCCommon"
+  pod "UMCAnalytics"
+  pod "UMCSecurityPlugins"
   # Pods for BWStarry1604C
 
 end

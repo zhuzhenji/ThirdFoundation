@@ -24,6 +24,10 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - UMCAnalytics (5.5.0):
+    - UMCCommon
+  - UMCCommon (1.5.2)
+  - UMCSecurityPlugins (1.0.6)
 
 DEPENDENCIES:
   - AFNetworking
@@ -31,6 +35,9 @@ DEPENDENCIES:
   - MJRefresh
   - MWPhotoBrowser
   - SDWebImage
+  - UMCAnalytics
+  - UMCCommon
+  - UMCSecurityPlugins
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -40,6 +47,9 @@ SPEC REPOS:
     - MJRefresh
     - MWPhotoBrowser
     - SDWebImage
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -48,7 +58,10 @@ SPEC CHECKSUMS:
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UMCAnalytics: 4667788559a72f2fa5077117d1b8802a3b6eb6bb
+  UMCCommon: 4392868ac47ff1b101663106bb114ba616fabbad
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
 
-PODFILE CHECKSUM: d150ec08f17b4409506c76bfe34e693de9f33633
+PODFILE CHECKSUM: eb889ae52522c994652b552aae9abeadb2b29526
 
 COCOAPODS: 1.5.3

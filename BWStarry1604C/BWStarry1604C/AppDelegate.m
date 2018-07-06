@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LoginViewController.h"
+#import <UMCommon/UMCommon.h>
 @interface AppDelegate ()
 
 @end
@@ -16,10 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //将窗口指向登录界面
+    self.window.rootViewController=[LoginViewController new];
+    [UMConfigure initWithAppkey:@"5b3de763a40fa319900000d7" channel:@"App Store"];
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

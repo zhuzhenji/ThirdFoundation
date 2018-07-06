@@ -15,7 +15,7 @@
 		5EEEB3AE20EDFC0A006947C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEEB3AD20EDFC0A006947C5 /* Assets.xcassets */; };
 		5EEEB3B120EDFC0A006947C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEEB3AF20EDFC0A006947C5 /* LaunchScreen.storyboard */; };
 		5EEEB3B420EDFC0A006947C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEEB3B320EDFC0A006947C5 /* main.m */; };
-		5EEEB3DA20EE122B006947C5 /* BWStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEEB3D920EE122B006947C5 /* BWStar.m */; };
+		5EEEB3DD20EE162E006947C5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEEB3DC20EE162E006947C5 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		5EEEB3B020EDFC0A006947C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EEEB3B220EDFC0A006947C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EEEB3B320EDFC0A006947C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5EEEB3D820EE122B006947C5 /* BWStar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWStar.h; sourceTree = "<group>"; };
-		5EEEB3D920EE122B006947C5 /* BWStar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWStar.m; sourceTree = "<group>"; };
+		5EEEB3DB20EE162E006947C5 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5EEEB3DC20EE162E006947C5 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		812F8BBEC42F7D79DCD189AE /* libPods-BWStarry1604C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWStarry1604C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1F71B992A574386CBFB4B0 /* Pods-BWStarry1604C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWStarry1604C.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWStarry1604C/Pods-BWStarry1604C.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -301,6 +301,8 @@
 		5EEEB3D420EE06A2006947C5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5EEEB3DB20EE162E006947C5 /* LoginViewController.h */,
+				5EEEB3DC20EE162E006947C5 /* LoginViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -315,8 +317,6 @@
 		5EEEB3D620EE06A2006947C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5EEEB3D820EE122B006947C5 /* BWStar.h */,
-				5EEEB3D920EE122B006947C5 /* BWStar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -448,11 +448,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EEEB3DA20EE122B006947C5 /* BWStar.m in Sources */,
 				5EEEB3A620EDFC08006947C5 /* ViewController.m in Sources */,
 				5EEEB3A320EDFC08006947C5 /* AppDelegate.m in Sources */,
 				5EEEB3B420EDFC0A006947C5 /* main.m in Sources */,
 				5EEEB3AC20EDFC08006947C5 /* BWStarry1604C.xcdatamodeld in Sources */,
+				5EEEB3DD20EE162E006947C5 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,7 +600,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.bawei.BWStarry1604C;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bawei.BWStarry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -618,7 +618,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.bawei.BWStarry1604C;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bawei.BWStarry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
