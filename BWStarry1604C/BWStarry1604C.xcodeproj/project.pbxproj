@@ -33,6 +33,7 @@
 		5EEEB3B320EDFC0A006947C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EEEB3DB20EE162E006947C5 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		5EEEB3DC20EE162E006947C5 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5EEEB3DE20EF6294006947C5 /* BWStarry1604C.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BWStarry1604C.entitlements; sourceTree = "<group>"; };
 		812F8BBEC42F7D79DCD189AE /* libPods-BWStarry1604C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWStarry1604C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1F71B992A574386CBFB4B0 /* Pods-BWStarry1604C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWStarry1604C.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWStarry1604C/Pods-BWStarry1604C.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +88,7 @@
 		5EEEB3A020EDFC08006947C5 /* BWStarry1604C */ = {
 			isa = PBXGroup;
 			children = (
+				5EEEB3DE20EF6294006947C5 /* BWStarry1604C.entitlements */,
 				5EEEB3D720EE06B0006947C5 /* Code */,
 				5EEEB3A120EDFC08006947C5 /* AppDelegate.h */,
 				5EEEB3A220EDFC08006947C5 /* AppDelegate.m */,
@@ -368,6 +370,14 @@
 				TargetAttributes = {
 					5EEEB39D20EDFC08006947C5 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -594,7 +604,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = BWStarry1604C/BWStarry1604C.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ2XJLSTV5;
 				INFOPLIST_FILE = BWStarry1604C/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -612,7 +624,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = BWStarry1604C/BWStarry1604C.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ2XJLSTV5;
 				INFOPLIST_FILE = BWStarry1604C/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
