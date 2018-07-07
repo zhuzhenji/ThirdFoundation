@@ -12,6 +12,7 @@ target 'BWStarry1604C' do
   pod "UMCCommon"
   pod "UMCAnalytics"
   pod "UMCSecurityPlugins"
+  pod "UMCPush"
   # Pods for BWStarry1604C
 
 end
